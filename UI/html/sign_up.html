@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sign in</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="/AnounceIT/UI/css/home.css"> -->
+<link rel="stylesheet" href="/AnounceIT/UI/css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <section class="sign_page" id="sign_up_page">
+        <div class="sign_heading">
+            <h4> <i class="fa fa-long-arrow-left"></i><a href="/AnounceIT/UI/html/index.html">  Back To Home</a></h4>
+            <h3>Create Your Account</h3>
+        </div>
+        <div>
+            
+            <!--  div bellow is a form {need tobechanged after } ---> 
+            <div  class="sign_form" id="sign_up_form">
+                <input type="text" placeholder="First Name" class="inputs_sign" id="sign_up_inputs_f1">
+                <input type="text" placeholder="Second Name" class="inputs_sign" id="sign_up_inputs_f2">
+                <input type="text" placeholder="UserName" class="inputs_sign" id="sign_up_inputs_f3">
+                <input type="number" placeholder="Phone number" class="inputs_sign" id="sign_up_inputs_f6">
+                <input type="text" placeholder="your address" class="inputs_sign" id="sign_up_inputs_f7">
+
+                <input type="password" name="pass" placeholder="Creat PassWord"  class="inputs_sign" id="sign_up_inputs_f4">
+                <input type="password" name="pass" placeholder="Repeat your PassWord"  class="inputs_sign mark" id="sign_up_inputs_f5">
+                <div class="message"></div>
+                <select name="userType" id="userType" class="sign_btn options">
+                    <option value="Advertiser" >Advertiser</option>
+                    <option value="admin">Admin</option>
+
+                </select>
+                <button class="sign_btn" id="sign_up_btn">Sign Up</button>
+                <div class="extra">Already Have Account <a href="/AnounceIT/UI/html/sign_in.html">Login Here</a></div>
+            </div>
+            <!-- <script src="working_with_forms.js"></script> -->
+            <script src="/AnounceIT/UI/js/signup.js"></script>
+        </div>
+    </section>
+
+</body>
+</html>
+
